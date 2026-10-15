@@ -1,1 +1,7 @@
-{"version": "1.3.1", "zip": "https://files.catbox.moe/cqjufj.zip", "sha256": "af8a93ab9a2aeb5ab9755623305e2d7d52b43ae0febd1b5afba1367e6bd4e45e", "size": 81845252, "notes": "v1.3.1: renamed to Max2Studio MUSE iPhone — window title, About dialog, tray icon, and product metadata. No other changes (v1.3.0 feature set: 60 upgrades — themes, queue, NVENC GPU encoding, 20 AI enhancements)."}
+{
+  "version": "1.3.2",
+  "zip": "https://files.catbox.moe/gzl1xy.zip",
+  "sha256": "b3d6ebb5723fb3cab0dae0f83eef9e4b18dc9828b3e0923b9c8baa517d14014c",
+  "size": 120574296,
+  "notes": "v1.3.2: Fixed cross-thread UI reads \u2014 BuildOptions() now snapshots controls on the UI thread (fixes pool-thread crashes in Smart CRF and batch conversion); MainForm status updates guarded."
+}
